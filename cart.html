@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Shopping Cart</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cart-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .cart-table th, .cart-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .cart-table th {
+            background-color: #f2f2f2;
+        }
+        .cart-container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/a.png" alt="" class="logo" width="150px"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+               
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="page-header" class="section-m1">
+        <h2 style="color: white;">#stayhome</h2>
+        <br>
+        <p style="color:white;">Save more with coupons & up to 70% off!</p>
+    </section>
+
+    <!-- Cart Display Section -->
+    <div class="cart-container">
+       
+        <!-- Include the cart_display.php script -->
+        <iframe src="cart_display.php" style="width:100%; height:600px; border:none;"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer class="section-p1" style="display: flex; flex-wrap: wrap; justify-content: space-between; padding: 20px; background-color: #f1f1f1;">
+        <div class="col" style="flex: 1; min-width: 200px; margin: 10px;">
+            <img class="logo" src="img/a.png" style="height: 60px; margin-bottom: 10px;">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 123 Comfort Shopping Zone, Jaipur, India</p>
+            <p><strong>Phone: </strong>+123 456 7890</p>
+            <p><strong>Hours: </strong>10:00-18:00, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon" style="font-size: 20px;">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col" style="flex: 1; min-width: 200px; margin: 10px;">
+            <h4>About</h4>
+            <a href="about.html" style="display: block; margin-bottom: 5px;">About Us</a>
+            <a href="#" style="display: block; margin-bottom: 5px;">Delivery Information</a>
+            <a href="#" style="display: block; margin-bottom: 5px;">Privacy Policy</a>
+            <a href="#" style="display: block; margin-bottom: 5px;">Terms & Conditions</a>
+            <a href="contact.html" style="display: block; margin-bottom: 5px;">Contact Us</a>
+        </div>
+    
+        <div class="col" style="flex: 1; min-width: 200px; margin: 10px;">
+            <h4>My Account</h4>
+            <a href="#" style="display: block; margin-bottom: 5px;">Sign In</a>
+            <a href="cart.html" style="display: block; margin-bottom: 5px;">View Cart</a>
+            <a href="#" style="display: block; margin-bottom: 5px;">Track My Order</a>
+            <a href="contact.html" style="display: block; margin-bottom: 5px;">Help</a>
+        </div>
+    
+        <div class="col install" style="flex: 1; min-width: 200px; margin: 10px;">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row" style="margin-bottom: 10px;">
+                <img src="img/download.jpeg" style="height: 50px;">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/payment.jpeg" style="height: 40px;">
+        </div>
+    
+        <div class="copyright" style="width: 100%; text-align: center; margin-top: 20px;">
+            <p>2024, Tech2 etc - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+</body>
+</html>
