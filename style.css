@@ -45,7 +45,7 @@ p{
 body{
     width: 100%;
 }
-/*Header*/
+
 #header{
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@ body{
     bottom: -4px;
     left: 20px;
 }
-/*home page*/
+/home page/
 #hero{
     background-image: url("img/background.jpeg");
     height: 100vh;
@@ -213,10 +213,6 @@ body{
     font-weight: 700;
     color: #088178;
 }
-/*add style of cart**/
-#cart{
-
-}
 #product1 .pro .cart{
 width: 40px;
 height: 40px;
@@ -249,7 +245,7 @@ right: 10px;
     background-position: center;
 }
 #sm-banner .banner-box2{
-    
+    ;
     background-image: url("img/call2.webp");
    
 }
@@ -372,7 +368,7 @@ footer .copyright{
     width: 100%;
     text-align: center;
 }
-/*SHOP PAGE*/
+/SHOP PAGE/
 #page-header{
     background-image: url("img/shop-header.jpeg");
     width: 100%;
@@ -385,7 +381,7 @@ footer .copyright{
     flex-direction: column;
     padding: 14px;
 }
-/*men*/
+/men/
 #prodetails .single-pro-image{
     width: 40%;
     margin-right: 50px;
@@ -424,22 +420,4 @@ footer .copyright{
 }
 #prodetails .single-pro-details span{
     line-height: 25px;
-}
-/*blog page*/
-#page-header .blog-header{
-      background-image: url("https://tse2.mm.bing.net/th?id=OIP.MHl6gy-hIUVV9-lDlcIw7QHaDe&pid=Api&P=0&h=220");
-}
-#page-header .about-header{
-
-}
-#about-head{
-    display: flex;
-    align-items: center;
-}
-#about-head img{
-    width: 50%;
-    height: auto;
-}
-#about-head div{
-    padding-left: 40px;
 }
